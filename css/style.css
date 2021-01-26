@@ -1,0 +1,166 @@
+/* ________________Обнуление_________________ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+li {
+	list-style: none;
+}
+
+a,
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+
+img {
+	vertical-align: top;
+}
+body {
+	font-size: 25px;
+}
+/* ___________блок header___________________________ */
+.headet__title h1 {
+	color: blueviolet;
+}
+/* ___________блок 1___________________________ */
+.content {
+	color: chartreuse;
+}
+.content__paragraph .content__paragraph__span {
+	color: red;
+}
+.content__paragraph span {
+	color: darkblue;
+}
+
+.content__paragraph.paragraph__2 {
+	color: darkgreen;
+}
+.content__paragraph.paragraph__2 span {
+	color: darkgoldenrod;
+}
+
+.content h3 {
+	color: chocolate;
+}
+/* ___________блок 2___________________________ */
+h2 {
+	color: blueviolet;
+}
+div.block {
+	color: blue;
+}
+h3 {
+	color: red;
+}
+ul li {
+	color: darkgreen;
+}
+li.list__text {
+	color: orangered;
+}
+a {
+	color: blueviolet;
+}
+#text {
+	color: chartreuse;
+}
+.list.block__list li {
+	color: turquoise;
+}
+
+/* ___________блок 3___________________________ */
+span {
+	color: blue;
+}
+.span {
+	color: red;
+}
+p.item {
+	color: darkslateblue;
+}
+
+/* ___________блок 4___________________________ */
+h2.titel {
+	color: deepskyblue;
+}
+h3.info {
+	color: blue;
+}
+div > p {
+	color: green;
+}
+ol li {
+	color: hotpink;
+}
+li.number {
+	color: indigo;
+}
+li span {
+	color: lawngreen;
+}
+mark {
+	color: red;
+}
+/* ___________блок 5___________________________ */
+
+p span {
+	color: lightseagreen;
+}
+/* ___________блок 6___________________________ */
+
+.text__item p {
+	color: red;
+}
+p.text__item {
+	color: green;
+}
+span.text__item {
+	color: red;
+}
+/* ___________блок 7___________________________ */
+div.block__7 h2 {
+	color: red;
+}
+div.block__7 {
+	color: red;
+}
+.block__7 .text1 p {
+	color: black;
+}
+div.text1 p.text2 {
+	color: fuchsia;
+}
+ol.text1 li {
+	color: lightseagreen;
+}
+div.block7 li {
+	color: blue;
+}
+a.link {
+	color: black;
+}
+ol.text1 span {
+	color: red;
+}
+ol.text1 mark {
+	color: green;
+}
